@@ -1,0 +1,158 @@
+*{
+    margin: 0px; 
+    padding: 0px; 
+}
+
+body{
+    background-color: whitesmoke;
+    color: lightblue; 
+    font-family: 'Helvetica';
+    font-size: 16px;
+    line-height: 1.6; 
+    margin: 0; 
+}
+
+main{
+    background-color: whitesmoke;
+    color: darkslategray; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+footer{
+    color: lightblue; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px; 
+    padding: 20px 20px;  
+    margin: 0 auto; 
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke; 
+}
+
+a:hover{
+    color: lightcoral; 
+}
+
+.button{
+    background-color: lightblue;
+    color: whitesmoke;
+    padding: 10px 15px; 
+    border: none; 
+}
+
+.button:hover{
+    background: lightcoral;
+}
+
+.center-title{
+    color: lightblue; 
+    font-family:'Helvetica';
+    font-size: 35px;
+    width: 300px;
+    padding: 20px; 
+    margin: 0 auto;
+}
+
+.navigation-bar{
+    background-color: darkslategrey;
+    padding: 10px 10px; 
+    border-top: 2px lightcoral dashed; 
+    margin: 10px auto; 
+}
+
+.navigation-links li{
+    padding: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px; 
+    list-style: none;
+    color: whitesmoke; 
+    width: 50%; 
+    display: inline;
+    margin: 0 auto;
+}
+
+.infolink{
+    background-color: lightblue;
+    padding: 3px; 
+    margin: 1px;
+    color: darkslategrey;
+    font-size: 10px;
+}
+
+.box-1{
+    background-color: darkslategrey;
+    color: whitesmoke;
+    line-height: 1.6em;
+    width: 400px; 
+    border: 1px lightcoral dashed;
+    padding: 20px 10px 20px 30px; 
+    margin: 0 auto; 
+}
+
+.home-picture{
+    width: 300px;
+    padding: 20px 20px 20px 30px;
+    margin: auto;
+}
+
+.textblocks{
+    display: block;
+    float: left; 
+    width: 25%;
+    padding: 10px 5px; 
+    border: 1px lightcoral dashed; 
+    margin: 20px 10px; 
+}
+
+.contact-sheet {
+    color: darkslategray; 
+    width: 400px; 
+    padding: 20px 10px 20px 30px; 
+    border: 1px lightcoral dotted; 
+    margin: 0 auto; 
+}
+
+.contact-sheet label{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact-sheet input, .contact-sheet textarea{
+    padding: 6px; 
+    width: 80%; 
+}
+
+.contact-sheet li{
+    display: inline;
+}
+
+@media (min-width: 1024px){
+    .center-title{
+        color: lightblue; 
+        font-family:'Helvetica';
+        font-size: 35px;
+        width: 600px;
+        padding: 20px; 
+        margin: 0 auto;
+    }
+    .box-1{
+        background-color: darkslategrey;
+        color: whitesmoke;
+        line-height: 1.6em;
+        width: 1024px; 
+        border: 1px lightcoral dashed;
+        padding: 20px 10px 20px 30px; 
+        margin: 0 auto; 
+    }
+    .contact-sheet {
+        color: darkslategray; 
+        width: 400px; 
+        padding: 20px 10px 20px 30px; 
+        border: 1px lightcoral dotted; 
+        margin: 0 auto; 
+    }
+}
